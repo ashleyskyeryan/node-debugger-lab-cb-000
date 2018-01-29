@@ -1,7 +1,7 @@
 module.exports = function account() {
   var output = {}
   var customerAccount = {
-    balance: 0, debugger
+    balance: 0, 
     name: 'Azat Mardan',
     checking: '1'
   }

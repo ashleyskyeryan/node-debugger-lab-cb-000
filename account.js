@@ -1,7 +1,7 @@
 module.exports = function account() {
   var output = {}
   var customerAccount = {
-    balance: 0, 
+    balance: 0,
     name: 'Azat Mardan',
     checking: '1'
   }
@@ -30,3 +30,4 @@ module.exports = function account() {
   output['Account after opening'] = customerAccount
   return output
 }
+});
